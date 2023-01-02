@@ -1,0 +1,128 @@
+
+.swiper {
+   margin-top: 40px;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+  width: 210px;
+  object-fit: cover;
+  border-left: 4px solid #0E66F9;
+}
+
+.swiper-button-next::after{
+    background-color: #2732F8;
+    /* background-color: black; */
+    position: absolute;
+    opacity: 0.8;
+    content: "";
+    width: 100%;
+    z-index: -88;
+    height: 100%;
+    background-image: url('./images/next.png');
+    background-repeat: no-repeat;
+    background-position: 50px 120px;
+    background-size: 40px;
+   
+}
+.swiper-button-next{
+  background-size: cover;
+    background-image: url('../components//images/man1.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-position: bottom;
+  right: 10px;
+  height: 238px;
+  width: 130px;
+ margin: 0 100px;
+ max-height: 100%;
+ max-width: 100%;
+ object-fit: cover;
+  position: absolute;
+  top: 15%;
+  left: auto;
+
+}
+
+.swiper-button-prev::after{
+    background-color: #2732F8;
+    position: absolute;
+    opacity: 0.8;
+    content: "";
+    width: 100%;
+    z-index: -88;
+    height: 100%;
+    background-image: url('./images/pre.png');
+    background-repeat: no-repeat;
+    background-position: 50px 120px;
+    background-size: 40px;
+}
+
+.swiper-button-prev{
+  left: 10px;
+  height: 238px;
+  width: 130px;
+ margin: 0 110px;
+ max-height: 100%;
+ max-width: 100%;
+ object-fit: cover;
+  position: absolute;
+  top: 15%;
+  left: auto;
+ background-image: url('../components//images/man1.png') ;
+  background-position: center;
+background-repeat: no-repeat;
+object-position: bottom;
+background-size: cover;
+}
+
+@media only screen and (max-width:1150px){
+  .swiper-button-next{
+    width: 30px;
+    height: 30px;
+    top: 2%;
+    
+  }
+  .swiper-button-next::after{
+    background-position: center;
+    background-size: 15px;
+  }
+  .swiper-button-prev{
+    width: 30px;
+    height: 30px;
+    top: 2%;
+  }
+  .swiper-button-prev::after{
+    background-position: center;
+    background-size: 15px;
+    
+  }
+}
+
+@media only screen and (max-width:323px){
+  .swiper-button-next{
+    left: 30%;
+  }
+  .swiper-button-prev{
+    right: 30%;
+  }
+}
+
+@media only screen and (min-width:1400px){
+  .swiper-button-next{
+    margin: 0 170px;
+  }
+  .swiper-button-prev{
+    margin: 0 170px;
+  }
+}
+
+@media only screen and (min-width:1500px){
+  .swiper-button-next{
+    margin: 0 220px;
+  }
+  .swiper-button-prev{
+    margin: 0 220px;
+  }
+}
