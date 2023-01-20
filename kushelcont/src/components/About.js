@@ -59,20 +59,24 @@ const About = ({mode}) => {
           <img style={success2} src={vision} alt="" />
           <h2 style={success1}>Our Vision</h2>
           <div className="vision-para">
-            <p style={success1}>We paint the bright future for the businesses</p>
-            <p style={success1}>working on digital landscapes and firmly believe in</p>
-            <p style={success1}>providing productive long-term business</p>
-            <p style={success1}>relationships.</p>
+            <p>We see a promising future for companies working  </p>
+            <p>in the digital landscape, and we are committed</p>
+            <p>to fostering fruitful, long-lasting business</p>
+            <p>connections.</p>
+
+            <p className="vis-da">We see a promising future for companies working in the digital landscape, and we are committed to fostering fruitful, long-lasting business connections.</p>
           </div>
         </div>
         <div className="mission">
           <img style={success2} src={mission} alt="" />
           <h2 style={success1}>Our Mission</h2>
           <div className="mision-para">
-            <p style={success1}>Handover contemporary and futuristic web and</p>
-            <p style={success1}>mobile software solutions to the businesses ranging</p>
-            <p style={success1}>from startups to enterprises with affordability and</p>
-            <p style={success1}>satisfaction.</p>
+            <p>Deliver cost-effective and satisfying modern and </p>
+            <p>cutting-edge mobile and web-based software </p>
+            <p>solutions to companies from start-ups to</p>
+            <p>enterprises.</p>
+
+            <p className="vis-da">Deliver cost-effective and satisfying modern and cutting-edge mobile and web-based software solutions to companies from start-ups to enterprises.</p>
           </div>
         </div>
       </div>

@@ -257,7 +257,7 @@ const HireTeam = ({mode}) => {
           </div>
         </div>
 
-        <div className="hire-things hire-things1">
+        <div className="hire-things hire-things1 hire-things2">
           <div className="hire-mobile-app">
             <h2>Hire Back-End Developers</h2>
             <button>
@@ -372,13 +372,16 @@ const HireTeam = ({mode}) => {
       </div>
 
       <div class="tech-div tech-div2">
-        <h2>Let’s Discuss Your Project</h2>
+      <h2>So what’s next? <br />
+Let’s Connect & discuss your project.
+</h2>
         <div class="tech-para">
-          <p>
-            Get free consultation and let us know your project idea to turn it
-            into an amazing digital <br /> product.
-          </p>
+        <p>
+            Get a free consultation and tell us about your project idea so we can transform 
+            </p>
+            <p>it into a remarkable digital product.</p>
         </div>
+        <h2 className="fontRelated">Our Mantra- Discuss. Design. Deliver</h2>
         <NavLink to="/about">
           <button class="tech-btn">About us</button>
           </NavLink>
@@ -423,7 +426,7 @@ const HireTeam = ({mode}) => {
 
       <div className="busta">
         <div className='bus-mod'>
-        <h2 style={hireTema2}>BUSINESS MODELS</h2>
+        <h2 style={hireTema2}>Our Business Models</h2>
         </div>
         <div className="three-business">
           <p style={hireTema1} id="barier" onClick={time}  className="first-b first-m">Time & Material</p>

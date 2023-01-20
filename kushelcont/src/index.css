@@ -44,7 +44,9 @@ body {
   overflow: hidden;
   background-color: transparent;
 }
-
+.fontRelated{
+  font-style: italic;
+}
 .btn-form-contact{
   width: 160px;
     height: 40px;
@@ -76,10 +78,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1240px;
+  /* max-width: 1240px; */
   margin: auto;
   height: 100%;
-  padding: 0 1rem;
+  padding: 0 60px;
+  /* padding: 0 1rem; */
 }
 
 .header .nav-menu a {
@@ -139,7 +142,8 @@ a {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1183px) {
+  /* 1080 */
   .header {
     max-width: 100%;
     /* background-color: black; */
@@ -315,6 +319,13 @@ a {
   font-weight: 500;
   font-family: "Raleway";
 }
+.banner-content h3{
+  font-size: 14.5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Raleway";
+  margin-top: 15px;
+}
 .banner-content h2{
   margin-top: 12px;
   font-size: 30px;
@@ -330,7 +341,7 @@ a {
   font-weight: 400;
   width: 65%;
   max-width: 100%;
-  margin-top: 15px;
+  margin-top: 10px; /* pehle 15 tha*/
 }
 .banner-content button{
   width: 160px;
@@ -777,6 +788,28 @@ a {
   background-color: #0a0f16;
   padding: 60px 60px;
 }
+.technology h3{
+  text-align: center;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 26px;
+  line-height: 35px;
+  width: 100%;
+  margin-top: 20px;
+}
+.trend-para{
+  margin-top: 20px;
+}
+.technology p{
+  font-size: 15px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 400;
+     text-align: center;
+     line-height: 24px;
+}
 .technology img {
   display: block;
   margin: auto;
@@ -805,6 +838,9 @@ a {
     font-size: 14px;
     cursor: pointer;
 }
+.button-chu1{
+  display: none;
+}
 .button-chu:hover{
   background-color: #0e66f9;
   border: none;
@@ -819,7 +855,8 @@ a {
   max-width: 100%;
   height: auto;
   background: linear-gradient(to right, #68f510, #116ce6);
-  padding: 8px 0px;
+  padding: 8px 5px;
+
 }
 
 .tech-div h2 {
@@ -2331,9 +2368,15 @@ footer .another-footer-section {
   }
   /* =============end media of seo audit============= */
 }
+
+
 @media only screen and (max-width:729px){
   .tech-image{
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .technology .asit{
+    margin: 20px 15px !important;
   }
   .tech-image img {
     margin: 20px 0px;
@@ -2519,6 +2562,15 @@ footer .another-footer-section {
   }
   .banner-images img{
     top: 49px;
+  }
+  .technology h3{
+    font-size: 18px !important;
+  }
+  .technology p{
+    font-size: 13px !important;
+  }
+   .fontRelated{
+     font-size: 16px !important;
   }
   .button-chu {
     font-size: 13px;
@@ -2731,9 +2783,18 @@ footer .another-footer-section {
 
   .three-section-first{
     flex-direction: column;
+    width: 250px;
   }
   .three-section-fourth{
     flex-direction: column;
+    width: 250px;
+  }
+  .three-section-fifth{
+    flex-direction: column;
+    width: 250px;
+  }
+  .three-section-fifth p{
+    margin: 15px 0px;
   }
   .three-section-fourth p{
     margin: 15px 0px;
@@ -2747,6 +2808,7 @@ footer .another-footer-section {
   }
   .three-section-second {
     flex-direction: column;
+    width: 250px;
   }
   .three-section-second p{
     margin: 15px 0px;
@@ -2755,6 +2817,7 @@ footer .another-footer-section {
   }
   .three-section-third{
     flex-direction: column;
+    width: 250px;
   }
   .three-section-third p{
     margin: 15px 0px;
@@ -2811,7 +2874,9 @@ footer .another-footer-section {
  
 
 }
-
+.vis-da{
+  display: none;
+}
 @media only screen and (max-width:342px){
   .three-section-first{
     width: 200px;
@@ -2824,6 +2889,18 @@ footer .another-footer-section {
   }
   .three-section-fourth{
     width: 200px;
+  }
+  .three-section-fifth{
+    width: 200px;
+  }
+  .vis-da{
+    display: block !important;
+  }
+  .vision-para p{
+    display: none;
+  }
+  .mision-para p{
+    display: none;
   }
 }
 /* ===================OVER++++++++++++++++++++++ */
@@ -5148,13 +5225,24 @@ footer .another-footer-section {
 .hire-sard:hover{
   background: linear-gradient(to right, #9300D2, #6B00A6,#4B0082) border-box;
   transition: 0.5s;
+  border: none;
 }
 
 .hire-sard1{
   border: 0.5px solid #206BCE;
 }
 .hire-sard1:hover{
-  background: linear-gradient(to right, #2D9CE0, #276DCB) border-box;;
+  background: linear-gradient(to right, #2D9CE0, #276DCB) border-box;
+  transition: 0.5s;
+  border: none;
+}
+.hire-things2 .hire-sard{
+  border: 0.5px solid #8400E2;
+}
+.hire-things2 .hire-sard:hover{
+  background: linear-gradient(to right, #9300D2, #6B00A6,#4B0082) border-box;
+  border: none;
+  transition: 0.5s;
 }
 .hiring-box{
   display: flex;
@@ -5360,6 +5448,18 @@ footer .another-footer-section {
   text-align: center;
   margin-top: 20px;
 }
+.clients-para{
+  margin-top: 20px;
+}
+.clients-para p{
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  opacity: 0.9;
+  line-height: 24px;
+}
 .happy-clients h2{
   color: #ffffff;
    font-family: "Poppins", serif;
@@ -5484,6 +5584,9 @@ footer .another-footer-section {
     font-size: 40px;
   }
 
+  .clients-para p{
+    font-size: 13px !important;
+  }
   /* ==========work css in service============= */
   .our-work{
     padding-top: 120px;
@@ -8450,5 +8553,85 @@ footer .another-footer-section {
     margin-top: 15px;
   }
 }
+
 /* ============================mobile app dev css end=========================== */
 /* =========================mobile app dev css end====================== */
+
+@media only screen and (max-width:445px){
+  .partner{
+    padding: 40px 20px;
+  }
+  .services{
+    padding: 40px 20px;
+  }
+  .technology{
+    padding: 40px 20px;
+  }
+  .tech-div{
+    margin: 40px auto;
+  }
+  .project{
+    padding: 40px 20px;
+  }
+  .project span{
+    margin-top: 10px;
+  }
+  .industry{
+    padding: 40px 20px;
+  }
+  .industry h2{
+    margin-top: 10px;
+  }
+  .project .project-btn{
+    margin: 20px auto;
+  }
+  .business{
+    padding: 40px 20px;
+  }
+  .reviews{
+    padding: 40px 20px;
+  }
+  .reviews span{
+    margin-top: 0px;
+  }
+  .two-jon{
+    margin: 30px 0px;
+  }
+  .kushel-service{
+    padding: 100px 20px;
+  }
+  .exom{
+    margin-top: 25px !important;
+  }
+  .vision-succ{
+    padding: 50px 20px;
+  }
+  .now-2022{
+    padding: 40px 0px;
+  }
+  .august{
+    padding: 40px 20px;
+  }
+  .kushel-solution{
+    padding: 50px 20px;
+  }
+  .solution-offer{
+    margin-top: 35px;
+  }
+  .success-ab{
+    padding: 40px 20px;
+  }
+  .contact_us .contact_para{
+    padding-top: 40px ;
+  }
+  .contact_us{
+    padding: 30px 25px;
+  }
+  .cont{
+    padding: 50px 0px;
+  }
+}
+.second-service1{
+ display: none;
+}
+

@@ -85,10 +85,9 @@ const Success = ({mode}) => {
         </div>
         <div className="second_partner">
           <div className="second_all">
-            <span>Who we are</span>
+            <span>Who are we?</span>
             <h2 style={aboutsCon1}>
-              Your digital partner to create inspirational design and robust
-              solution for Web, Mobile & <br /> Cloud.
+            We are your digital partner for innovative design and reliable Web, Mobile, and Marketing solutions. 
             </h2>
             <p style={aboutsCon1}>
               The top-notch and preeminent Web and Mobile App Development
@@ -159,13 +158,16 @@ const Success = ({mode}) => {
     </div>
     <div className="techas">
     <div class="tech-div tech-div2">
-      <h2>Let’s Discuss Your Project</h2>
+    <h2>So what’s next? <br />
+Let’s Connect & discuss your project.
+</h2>
       <div class="tech-para">
-        <p>
-          Get free consultation and let us know your project idea to turn it
-          into an amazing digital <br /> product.
-        </p>
+      <p>
+            Get a free consultation and tell us about your project idea so we can transform 
+            </p>
+            <p>it into a remarkable digital product.</p>
       </div>
+      <h2 className="fontRelated">Our Mantra- Discuss. Design. Deliver</h2>
       <NavLink to="/about">
         <button class="tech-btn">About us</button>
         </NavLink>
@@ -210,7 +212,7 @@ const Success = ({mode}) => {
 
     <div className="busta busta1 busta2">
       <div className='bus-mod'>
-      <h2>BUSINESS MODELS</h2>
+      <h2>Our Business Models</h2>
       </div>
       <div className="three-business">
         <p style={aboutsCon1} id="barier" onClick={time}  className="first-b first-m">Time & Material</p>

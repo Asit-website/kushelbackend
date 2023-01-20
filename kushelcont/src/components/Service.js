@@ -831,7 +831,7 @@ const Service = () => {
         </div>
         <div className="busta">
         <div className='bus-mod'>
-        <h2>BUSINESS MODELS</h2>
+        <h2>Our Business Models</h2>
         </div>
         <div className="three-business">
           <p id="a" onClick={time} className="first-b">Time & Material</p>

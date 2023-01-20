@@ -1,4 +1,6 @@
-const techApi = [
+
+
+const techApi1 = [
     {
         id:1,
         Name:'imagesa/nodsa.png',
@@ -20,21 +22,6 @@ const techApi = [
         Name:'imagesa/laravel.png',
         width:'60px'
     },
-    {
-        id:5,
-        Name:'imagesa/mag2.png',
-        width:'70px'
-    },
-    {
-        id:6,
-        Name:'imagesa/shopi2.png',
-        width:'60px'
-    },
-    {
-        id:7,
-        Name:'imagesa/kub.png',
-        width:'100px'
-    }
 ]
 
-export default techApi;
+export default techApi1;

@@ -15,6 +15,7 @@ import NoPath from "../components/images/NoPath.png";
 import logoa from "../components/images/logoa.png";
 import mobile from "../components/images/mobile.png";
 import solution from "../components/images/Solutions.png";
+import { NavLink } from "react-router-dom";
 const MobileApp = () => {
   const [men, setMen] = useState(1);
   const css1 = {
@@ -720,16 +721,23 @@ const MobileApp = () => {
         </div>
         <div className="fsfs">
         <div id="tech-div7" class="tech-div tech-div2 tech-div3">
-          <h2>Let’s Discuss Your Project</h2>
-          <div class="tech-para">
-            <p>
-              Get free consultation and let us know your project idea to turn it
-              into an amazing digital <br /> product.
+        <h2>
+            So what’s next? <br />
+            Let’s Connect & discuss your project.
+          </h2>
+          <div className="tech-para">
+          <p>
+              Get a free consultation and tell us about your project idea so we
+              can transform
             </p>
+            <p>it into a remarkable digital product.</p>
           </div>
-          <a class="" href="/about">
+          <h2 className="fontRelated">
+            Our Mantra- Discuss. Design. Deliver
+          </h2>
+          <NavLink to="/about">
             <button class="tech-btn">About us</button>
-          </a>
+          </NavLink>
         </div>
 </div>
         <div className="drible">

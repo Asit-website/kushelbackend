@@ -17,6 +17,7 @@ import img204 from "../components/images/Image204.png";
 import img205 from "../components/images/Image205.png";
 import img211 from "../components/images/Image211.png";
 import img208 from "../components/images/Image208.png";
+import { NavLink } from "react-router-dom";
 const Uix = () => {
   return (
     <>
@@ -271,19 +272,24 @@ const Uix = () => {
       </div>
 
       <div className="discus-project">
-      <div className="fsfs">
-        <div class="tech-div tech-div2 tech-div3">
-          <h2>Let’s Discuss Your Project</h2>
-          <div class="tech-para">
-            <p>
-              Get free consultation and let us know your project idea to turn it
-              into an amazing digital <br /> product.
-            </p>
+        <div className="fsfs">
+          <div class="tech-div tech-div2 tech-div3">
+            <h2>
+              So what’s next? <br />
+              Let’s Connect & discuss your project.
+            </h2>
+            <div class="tech-para">
+              <p>
+                Get a free consultation and tell us about your project idea so
+                we can transform
+              </p>
+              <p>it into a remarkable digital product.</p>
+            </div>
+            <h2 className="fontRelated">Our Mantra- Discuss. Design. Deliver</h2>
+            <NavLink to="/about" class="" >
+              <button class="tech-btn">About us</button>
+            </NavLink>
           </div>
-          <a class="" href="/about">
-            <button class="tech-btn">About us</button>
-          </a>
-        </div>
         </div>
         <div className="designing-tools">
           <p className="ds">Designing</p>
